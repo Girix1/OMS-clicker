@@ -18,13 +18,3 @@ cookie.onclick = () => {
   counter.innerText = numberOfCookies;
   counter.innerHTML = "Počet Kazmitchů: " + numberOfCookies;
 };
-cookie2.onclick = () => {
-  //Zvednout cislo o 1
-  //numberOfCookies = numberOfCookies + 1;
-  //numberOfCookies += 1;
-  //++ - inkrement
-  numberOfCookies2++;
-  //Zobrazit v odstavci
-  counter2.innerText = numberOfCookies2;
-  counter2.innerHTML = "Počet košťat: " + numberOfCookies2;
-};
