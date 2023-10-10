@@ -14,16 +14,17 @@ body {
   background-color: rgb(0, 0, 0) ;
   background-image: url(../img/omsflogo.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 90%;
   background-size: 20rem;
 }
 #cookie {
-  max-width: 130px;
+  max-width: 250px;
   width: 100%;
+  cursor: pointer;
+  transition: .3s ease;
 }
-#cookie2 {
-  max-width: 180px;
-  width: 100%;
+#cookie:hover {
+  transform:scale(1.3);
 }
 section {
   display: flex;
@@ -31,12 +32,16 @@ section {
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  width: 40rem;
+  width: max-content;
 text-align: center;
 }
 article {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 4rem;
   font-size: 2rem;
-  width: 20rem;
+  
+}
+p{
+  padding-top: 14%;
+  margin-top: 0;
 }
