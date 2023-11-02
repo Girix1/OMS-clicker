@@ -12,10 +12,87 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(0, 0, 0) ;
-  background-image: url(../img/omsflogo.svg);
-  background-repeat: no-repeat;
-  background-position: 50% 90%;
-  background-size: 20rem;
+}
+
+.koste{
+  background-image: url(../img/koste.png);
+  background-size: cover;
+}
+.hasa{
+  background-image: url(../img/hasa.png);
+  background-size: cover;
+}
+.markus{
+  background-image: url(../img/emojimarkus.png);
+  background-size: cover;
+}
+.char{
+  display: flex;
+  flex-direction: column ;
+  margin-right: 3rem;
+  gap: 1rem;
+  background-color: rgba(48, 48, 48, 0.342);
+  padding: 20px;
+border-radius: 25px;
+border-color: white 1px solid;
+border-style:dashed;
+width: 20rem;
+margin-top: auto;
+margin-bottom: auto;
+margin-left: 3rem ;
+}
+.charita:active{
+  transform: scale(1.1);
+}
+.charita{
+  width: 10rem;
+  height: 10rem;
+  background-color: rgba(240, 248, 255, 0);
+  border:1px solid white;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  font-size: large;
+}
+#upgrades{
+  border-radius: solid yellow;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+}
+.nadpis{
+  width: 300px;
+}
+.button{
+  width: 10rem;
+  height: 10rem;
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button:active{
+  transform: scale(1.2);
+
+}
+.buttons{
+  display: flex;
+  flex-direction: column ;
+  margin-right: 3rem;
+  gap: 1rem;
+  background-color: rgba(48, 48, 48, 0.342);
+  padding: 20px;
+border-radius: 25px;
+border-color: white 1px solid;
+border-style:dashed;
+width: 20rem;
+}
+#omsf{
+  margin-top: 2rem;
+  width: 20rem;
 }
 #cookie {
   max-width: 250px;
@@ -26,22 +103,25 @@ body {
 #cookie:hover {
   transform:scale(1.3);
 }
+#counter{
+  padding-top: 14%;
+  margin-top: 0;
+}
 section {
   display: flex;
   color: white;
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  width: max-content;
-text-align: center;
+  text-align: center;
+  justify-content: center;
 }
 article {
   text-align: center;
-  margin-top: 4rem;
   font-size: 2rem;
-  
+  width: 100% ;
+  margin-top: 3rem;
 }
 p{
-  padding-top: 14%;
-  margin-top: 0;
+  font-size: 100%;
 }

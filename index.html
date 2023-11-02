@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="cz">
   <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OMS clicker</title>
     <link rel="stylesheet" href="./res/css/style.css" />
@@ -9,10 +9,30 @@
   <body>
     <section>
       <article>
+
+        <div class="char">
+          <img src="./res/img/OMSnadace.png" alt="">
+          <button class="charita" id="charita">Přispěj na OMS nadaci: 10 000</button>
+        </div>
+      </article>
+      <article>
         <img id="cookie" src="./res/img/kazma.png" alt="Cookie" />
         <p id="counter">Počet Kazmitchů: 0</p>
+        <img id="omsf" src="./res/img/omsflogo.svg" />
+      </article>
+      <article id="upgrades">
+       
+        <div class="buttons"> <img class="nadpis" src="./res/img/header-logo.svg" alt=""></img>
+          <button class="button koste" id="clickUprgrade"></button>
+          <p id="upgradetxt buttxt">Buy koště: 50 (zvýší sílu kliknutí o 1)</p>
+          <button class="button hasa" id="counterautoclickerUprgade"></button>
+          <p id="upgradetxt2 buttxt">Buy Háša: 100 (+1 kliknutí za sekundu)</p>
+          <button class="button markus" id="counterautoclickerUprgade2"></button>
+          <p id="upgradetxt3 buttxt">Buy Markus: 500 (+2 kliknutí za sekundu)</p>
+        </div>
       </article>
     </section>
+
     <script src="./res/js/main.js"></script>
   </body>
 </html>
