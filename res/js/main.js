@@ -66,10 +66,10 @@ autoclickerUprgade2.onclick = () => {
     //odecteme cenu
     numberOfCookies -= clickAutoclicker2Prize;
     clickAutoclicker2Prize *=2;
-    autoclickerUprgade2.innerHTML = `Buy Markus: ${clickAutoclicker2Prize} (+2 kliknutí za sekundu)`;
+    autoclickerUprgade2.innerHTML = `Buy Markus: ${clickAutoclicker2Prize} (+10 kliknutí za sekundu)`;
     //zobrazime pocet susenek
     counter.innerText = "Počet Kazmitchů: " + numberOfCookies;
-    autoclicker2IncreaseNumber+=2;
+    autoclicker2IncreaseNumber += 10;
     clearInterval(autoclicker2Interval);
     //spustime autoclicker
     setInterval(() => {
