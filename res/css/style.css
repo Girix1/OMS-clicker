@@ -5,6 +5,7 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 body {
   width: 100%;
@@ -15,8 +16,11 @@ body {
 }
 
 .koste{
-  background-image: url(../img/koste.png);
-  background-size: cover;
+  width: 200px;
+ margin: auto;
+}
+.koste:active{
+  transform: scale(1.2);
 }
 .hasa{
   background-image: url(../img/hasa.png);

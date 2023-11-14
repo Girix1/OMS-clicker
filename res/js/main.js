@@ -1,6 +1,7 @@
 const cookie = document.getElementById("cookie");
 const counter = document.getElementById("counter");
 const clickUprgrade = document.getElementById("clickUprgrade");
+const upgradeTxt = document.getElementById("upgradeTxt")
 const autoclickerUprgade = document.getElementById("counterautoclickerUprgade");
 const autoclickerUprgade2 = document.getElementById("counterautoclickerUprgade2");
 const charita = document.getElementById("charita");
@@ -34,8 +35,8 @@ clickUprgrade.onclick = () => {
     //odecist cenu
     //numberOfCookies = numberOfCookies 50;
     numberOfCookies -= clickUprgradePrize;
-    clickUprgradePrize *= 2;
-    clickUprgrade.innerHTML = `Buy koště: ${clickUprgradePrize} (zvýší sílu kliknutí o 1)`;
+    clickUprgradePrize *= 1.5;
+    upgradeTxt.innerHTML = `Buy koště: ${clickUprgradePrize} (zvýší sílu kliknutí o 1)`;
     //zobrazime pocet
     counter.innerText = "Počet Kazmitchů: " + numberOfCookies;
     //zvednout klikani o 1
