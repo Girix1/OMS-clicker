@@ -15,10 +15,13 @@ body {
   background-color: rgb(0, 0, 0) ;
   overflow: hidden;
 }
+#nadace{
+font-size: medium;
+}
 
 .koste{
-  width: 200px;
- margin: auto;
+ background-image: url(../img/koste.png);
+ background-size: cover;
 }
 .koste:active{
   transform: scale(1.2);
@@ -87,7 +90,7 @@ margin-left: 3rem ;
   display: flex;
   flex-direction: column ;
   margin-right: 3rem;
-  gap: 1rem;
+  gap: 10px;
   background-color: rgba(48, 48, 48, 0.342);
   padding: 20px;
 border-radius: 25px;
@@ -128,4 +131,70 @@ article {
 }
 p{
   font-size: 100%;
+}
+.fotky{
+  display: flex;
+  flex-direction: row ;
+  margin-right: 3rem;
+  gap: 10px;
+  background-color: rgba(48, 48, 48, 0.342);
+  padding: 20px;
+border-radius: 25px;
+border-color: white 1px solid;
+border-style:dashed;
+width: 20rem;
+margin-top: 2rem;
+margin-left:3rem;
+}
+#img1{
+background-image: url(../img/ospalykazma.png);
+background-size: cover;
+
+width: 10rem;
+height: 10rem;
+background-color: rgba(240, 248, 255, 0);
+border: none;
+color: white;
+margin-left: auto;
+margin-right: auto;
+
+}
+#img2{
+  background-image: url(../img/KappaKazma.png);
+  background-size: cover;
+
+  width: 10rem;
+  height: 10rem;
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img3{
+  background-image: url(../img/kazma_prachy.png);
+  background-size: cover;
+
+  width: 10rem;
+  height: 10rem;
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img4{
+  background-image: url(../img/moneyrainkazma.png);
+  background-size: cover;
+
+  width: 10rem;
+  height: 10rem;
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img1:active, #img2:active, #img3:active, #img4:active{
+  transform:scale(1.1);
 }
